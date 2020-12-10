@@ -3,6 +3,7 @@ Halo, Nama saya Drajat Fikri Alfianto, saya dari arkademy Mobile Fullstack Devel
 Project yang saya buat kali ini bernama ZWallet yang mempunyai tujuan untuk menyimpan uang secara virtual. Project Ini dibuat menggunakan ReactNative
 
 Untuk menggunakan nya, clone dan run terlebih dahulu dengan Backend nya https://github.com/drajat824/Z-Wallet-API
+
 Download aplikasi : https://drive.google.com/file/d/1Fo6veQCz4lt9aNVX38GJJAZ_pREQdZDS/view?usp=sharing
 
 Sceernshoot :

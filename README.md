@@ -53,16 +53,13 @@ Zwallet adalah aplikasi payment yang dibangun menggunakan React Native dan Redux
 
 
 ## Setup
-`
+```
 ~$ https://github.com/drajat824/Z-Wallet-Mobile
-
 ~$ cd Z-Wallet-Mobile
-
 ~$ yarn install
-
 ~$ react-native start
-
-~$ react-native run-android `
+~$ react-native run-android
+```
 
 ## Sumber
 

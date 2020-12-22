@@ -2,7 +2,7 @@
 
 ## Pengantar
 
-Zwallet adalah aplikasi payment yang dibangun menggunakan React Native dan Redux, aplikasi ini memiliki beberapa fitur, di antara lain Transfer dan Notifikasi 
+Zwallet adalah aplikasi payment yang dibangun menggunakan React Native dan Redux, aplikasi ini dirancang untuk memudahkan melakukan pembayaran secara online dengan mudah dan cepat. 
 
 ## Teknologi
 

@@ -25,7 +25,7 @@ Zwallet adalah aplikasi payment yang dibangun menggunakan React Native dan Redux
 10. Forgot Password (On Progress)
 11. On/Of Notification (On Progress)
 
-## App_UI
+## App UI
 
 1. Splash Screen 
 
@@ -55,9 +55,13 @@ Zwallet adalah aplikasi payment yang dibangun menggunakan React Native dan Redux
 ## Setup
 `
 ~$ https://github.com/drajat824/Z-Wallet-Mobile
+
 ~$ cd Z-Wallet-Mobile
+
 ~$ yarn install
+
 ~$ react-native start
+
 ~$ react-native run-android `
 
 ## Sumber

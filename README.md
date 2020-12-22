@@ -19,7 +19,23 @@ Zwallet adalah aplikasi payment yang dibangun menggunakan React Native dan Redux
 
 2. Login
 
-![Screenshot_20201222-192647](https://user-images.githubusercontent.com/64979984/102910313-f1febf80-44ac-11eb-887f-ccc54d94a502.jpg)
+![Login](https://user-images.githubusercontent.com/64979984/102911879-40ad5900-44af-11eb-8f31-b5cd764966fb.jpg)
+
+3. Dashboard
+
+![Dashboard](https://user-images.githubusercontent.com/64979984/102912074-9550d400-44af-11eb-9643-ea8f6115589b.jpg)
+
+4. History
+
+![History](https://user-images.githubusercontent.com/64979984/102912191-af8ab200-44af-11eb-97c9-d12e48726ca6.jpg)
+
+5. Search
+
+![Search](https://user-images.githubusercontent.com/64979984/102912315-cd581700-44af-11eb-8589-90eecf9a1ba5.jpg)
+
+6. Transfer Input
+
+![Transfer Input](https://user-images.githubusercontent.com/64979984/102912426-f5477a80-44af-11eb-9afe-76714994e115.jpg)
 
 
 ## Setup

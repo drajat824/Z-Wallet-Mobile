@@ -93,9 +93,9 @@ const Notif = (props) => {
                             source={{
                               uri:
                                 item.id_sender == myData.data[0].id_profile
-                                  ? 'http://3.88.220.160:8000/images/' +
+                                  ? '3.88.220.160:8000/images/' +
                                     item.photo_receiver
-                                  : 'http://3.88.220.160:8000/images/' +
+                                  : '3.88.220.160:8000/images/' +
                                     item.photo,
                             }}
                             style={{width: 50, height: 50, borderRadius: 15}}

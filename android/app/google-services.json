@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "647541965999",
+    "firebase_url": "https://zwallet-drajat.firebaseio.com",
+    "project_id": "zwallet-drajat",
+    "storage_bucket": "zwallet-drajat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647541965999:android:cc5be4952999543b92c05a",
+        "android_client_info": {
+          "package_name": "com.zwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647541965999-81eve18ne0an663qf1nj34rsvlc508fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZG5fkyBKa-ZHi02kiCLgvxJC506ZljqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647541965999-81eve18ne0an663qf1nj34rsvlc508fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

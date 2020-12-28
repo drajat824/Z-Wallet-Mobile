@@ -33,10 +33,10 @@ const TrHistory = (props) => {
     );
   }, []);
 
-  const {getTrWeek, getTrMonth} = useSelector((s) => s.Transfer);
+  const {getTrWeek, getTrMonth, loading} = useSelector((s) => s.Transfer);
   console.log(expense, income);
 
-  return !getTrWeek || !getTrMonth ? (
+  return loading ? (
     <>
       <StatusBar backgroundColor="#fafcff" barStyle="dark-content" />
       <View style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>

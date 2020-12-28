@@ -61,7 +61,7 @@ const Transfer = (state = initialState, action = {}) => {
 
     case 'TRANSFERLOGOUT':
       return {
-        getTr: '',
+        getTr: ''
       };
     default:
       return state;

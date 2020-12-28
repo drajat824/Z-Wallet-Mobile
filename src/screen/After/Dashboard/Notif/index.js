@@ -33,10 +33,10 @@ const Notif = (props) => {
     );
   }, []);
 
-  const {getTrWeek, getTrDay} = useSelector((s) => s.Transfer);
+  const {getTrWeek, getTrDay, loading} = useSelector((s) => s.Transfer);
   console.log(expense, income);
 
-  return !getTrWeek || !getTrDay ? (
+  return loading ? (
     <>
       <StatusBar backgroundColor="#fafcff" barStyle="dark-content" />
       <View style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>
@@ -89,13 +89,13 @@ const Notif = (props) => {
                           justifyContent: 'space-between',
                         }}>
                         <View style={{marginLeft: 10}}>
-                          <Image
+                        <Image
                             source={{
                               uri:
                                 item.id_sender == myData.data[0].id_profile
-                                  ? '3.88.220.160:8000/images/' +
+                                  ? 'http://3.88.220.160:8000/images/' +
                                     item.photo_receiver
-                                  : '3.88.220.160:8000/images/' +
+                                  : 'http://3.88.220.160:8000/images/' +
                                     item.photo,
                             }}
                             style={{width: 50, height: 50, borderRadius: 15}}

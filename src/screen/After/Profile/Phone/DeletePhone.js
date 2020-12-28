@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Image, Switch, StatusBar} from 'react-native';
-import {ScrollView} from 'react-native-gesture-handler';
+import {ScrollView, TouchableOpacity} from 'react-native-gesture-handler';
 import {Text, Card, Button} from 'react-native-paper';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import {DelPhone} from './../../../../redux/actions/Users';
@@ -69,9 +69,9 @@ const DeletePhone = (props) => {
                     </Text>
                   </View>
 
-                  <View style={{marginTop: 20, marginRight: 5}}>
+                  <TouchableOpacity style={{marginTop: 20, marginRight: 5}}>
                     <Icon onPress={() => Delete()} name="trash" size={20} />
-                  </View>
+                  </TouchableOpacity>
                 </View>
               </Card.Content>
             </Card>

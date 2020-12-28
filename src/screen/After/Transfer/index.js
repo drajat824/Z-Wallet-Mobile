@@ -27,35 +27,37 @@ const Transfer = ({navigation}) => {
     <>
       <ScrollView style={{backgroundColor: '#fafcff'}}>
         <View>
+          
           <Card.Content
             style={{
               flexDirection: 'row',
               backgroundColor: 'rgba(58, 61, 66, 0.1)',
-              elevation: 5,
               width: '95%',
               alignSelf: 'center',
               borderRadius: 15,
               marginTop: 25,
               marginBottom: 20,
             }}>
-            <View>
+
               <Icon
                 style={{top: 13, right: 4}}
                 name="search"
                 size={20}
                 color="rgba(58, 61, 66, 1)"
               />
-            </View>
+
             <View style={{flex: 5}}>
               <TextInput
                 onChangeText={(text) => setQuery(text)}
                 placeholder="Search receiver here"
               />
             </View>
+
           </Card.Content>
 
           <Text style={{marginLeft: 15, marginTop: 30, fontSize: 15}}>
-            All Contacts
+            All Contacts{"\n"}
+            {!dataName? '0' : dataName.length}
           </Text>
 
           {loading ? (

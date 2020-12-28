@@ -65,6 +65,7 @@ export const TransferLogout = () => {
 
 export const GetTransfer = (fields) => {
   return (dispatch) => {
+    dispatch(TRANSFERREQUEST())
     return Axios({
       method: 'GET',
       url: `http://3.88.220.160:8000/api/v1/transfer?page=${fields.page}&&limit=${fields.limit}`,
@@ -85,6 +86,7 @@ export const GetTransfer = (fields) => {
 
 export const GetTransferWeek = (fields) => {
   return (dispatch) => {
+    dispatch(TRANSFERREQUEST())
     return Axios({
       method: 'GET',
       url: `http://3.88.220.160:8000/api/v1/transfer/week`,
@@ -105,6 +107,7 @@ export const GetTransferWeek = (fields) => {
 
 export const GetTransferMonth = (fields) => {
   return (dispatch) => {
+    dispatch(TRANSFERREQUEST())
     return Axios({
       method: 'GET',
       url: `http://3.88.220.160:8000/api/v1/transfer/month`,
@@ -125,6 +128,7 @@ export const GetTransferMonth = (fields) => {
 
 export const GetTransferDay = (fields) => {
   return (dispatch) => {
+    dispatch(TRANSFERREQUEST())
     return Axios({
       method: 'GET',
       url: `http://3.88.220.160:8000/api/v1/transfer/today`,
@@ -145,6 +149,7 @@ export const GetTransferDay = (fields) => {
 
 export const GetTransferHistory = (fields) => {
   return (dispatch) => {
+    dispatch(TRANSFERREQUEST())
     return Axios({
       method: 'GET',
       url: `http://3.88.220.160:8000/api/v1/transfer`,

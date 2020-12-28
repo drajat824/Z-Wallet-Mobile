@@ -45,7 +45,7 @@ const Pin = (props) => {
 
   return (
     <>
-      <ScrollView style={{backgroundColor: '#fafcff'}}>
+      <View style={{backgroundColor: '#fafcff', height: '100%'}}>
         <Text
           style={{
             marginTop: 70,
@@ -58,7 +58,7 @@ const Pin = (props) => {
         </Text>
 
         <Card
-          style={{borderRadius: 50, backgroundColor: 'white', height: '100%'}}>
+          style={{borderTopEndRadius: 50,borderTopStartRadius: 50 ,backgroundColor: 'white', bottom: 0, position: 'absolute', width: '100%'}}>
           <Card.Content style={{marginTop: 15}}>
             <View>
               <Text
@@ -245,7 +245,7 @@ const Pin = (props) => {
             </View>
           </Card.Content>
         </Card>
-      </ScrollView>
+      </View>
     </>
   );
 };

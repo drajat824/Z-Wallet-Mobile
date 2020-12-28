@@ -44,11 +44,11 @@ const PinConfirm = (props) => {
       await AsyncStorage.setItem('amount', amount);
       await AsyncStorage.setItem('date', date);
       await AsyncStorage.setItem('name', name);
+      await AsyncStorage.setItem('notes', notes);
       await AsyncStorage.setItem('photo', photo);
       await AsyncStorage.setItem('phone', phone);
-      await AsyncStorage.setItem('notes', notes);
 
-      await console.log('Success Set Item');
+
     } catch (e) {
       return false;
     }

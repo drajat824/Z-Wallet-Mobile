@@ -17,19 +17,6 @@ const Users = (state = initialState, action = {}) => {
         data: [],
         error: action.payload,
       };
-
-    case 'PROFILELOGOUT':
-      return {
-        ...state,
-        myData: '',
-        data: '',
-        dataTr: '',
-        dataName: '',
-        _persist: {
-          rehydrated: true,
-          version: -1,
-        },
-      };
     case 'GETPROFILE':
       return {
         ...state,
@@ -60,6 +47,10 @@ const Users = (state = initialState, action = {}) => {
         ...state,
         loading: false,
         dataName: action.payload,
+      };
+      case 'PROFILELOGOUT':
+      return {
+        myData: ''
       };
     default:
       return state;

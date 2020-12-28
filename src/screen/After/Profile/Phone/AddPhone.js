@@ -10,19 +10,21 @@ const AddPhone = (props) => {
   const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState(false);
 
+  var aPhone = "0"+phone
+  console.log(aPhone)
   const dispatch = useDispatch();
 
   const Auth = useSelector((s) => s.Auth);
 
   const onSubmit = async () => {
-    if (phone.length <= 10 || !phone) {
+    if (phone.length <= 8 || !phone || phone.length >= 13) {
       setError(true);
     } else {
       await setError(false);
       dispatch(
         PatchProfile(
           {
-            phone: phone,
+            phone: aPhone,
             token: Auth.data.token,
           },
           props.navigation,
@@ -86,7 +88,7 @@ const AddPhone = (props) => {
 
           {error == true ? (
             <Text style={{color: 'red', textAlign: 'center'}}>
-              Number must be more than 10{' '}
+              Number must be more than 8 and less than 13{' '}
             </Text>
           ) : (
             <View />

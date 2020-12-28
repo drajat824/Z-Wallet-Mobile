@@ -27,7 +27,7 @@ const Transaction = ({navigation}) => {
 
   const {getTrHr, loading} = useSelector((s) => s.Transfer);
 
-  return !getTrHr || !myData ? (
+  return loading ? (
     <>
       <StatusBar backgroundColor="#fafcff" barStyle="dark-content" />
       <View style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>

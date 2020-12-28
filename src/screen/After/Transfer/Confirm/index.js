@@ -58,7 +58,7 @@ const Confirm = ({route, navigation}) => {
                         {dataTr.data.name}
                       </Text>
                       <Text style={{color: '#7A7886'}}>
-                        {dataTr.data.phone ? dataTr.data.phone : '+62'}
+                        {dataTr.data.phone ? dataTr.data.phone : ''}
                       </Text>
                     </View>
                   </View>
@@ -203,6 +203,7 @@ const Confirm = ({route, navigation}) => {
                 backgroundColor: '#6379F4',
                 borderRadius: 12,
                 height: 57,
+                elevation: 0,
                 width: '95%',
                 alignSelf: 'center',
                 justifyContent: 'center',

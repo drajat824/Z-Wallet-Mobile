@@ -12,8 +12,8 @@ import LoadingComponent from './../.././../component/loading';
 const Dashboard = ({navigation}) => {
   const Auth = useSelector((s) => s.Auth);
   const dispatch = useDispatch();
-  const {myData, loading} = useSelector((s) => s.Users);
-  const {getTr} = useSelector((s) => s.Transfer);
+  const {myData} = useSelector((s) => s.Users);
+  const {getTr, loading} = useSelector((s) => s.Transfer);
 
   React.useEffect(() => {
     dispatch(
@@ -30,7 +30,7 @@ const Dashboard = ({navigation}) => {
     );
   }, []);
 
-  return !myData || loading ? (
+  return !myData || loading  ? (
     <>
       <StatusBar backgroundColor="#fafcff" barStyle="dark-content" />
       <View style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>
@@ -150,15 +150,15 @@ const Dashboard = ({navigation}) => {
           <View
             style={{
               flexDirection: 'row',
-              alignItems: 'stretch',
-              alignSelf: 'center',
               marginTop: 20,
               paddingHorizontal: 20,
+              justifyContent: 'space-around'
+              
             }}>
-            <TouchableOpacity
+              
+
+              <TouchableOpacity
               onPress={() => navigation.push('Find Receiver')}
-              style={{flex: 1}}>
-              <Card
                 mode="contained"
                 style={{
                   backgroundColor: '#E5E8ED',
@@ -184,19 +184,16 @@ const Dashboard = ({navigation}) => {
                         color: 'black',
                         textAlign: 'center',
                         fontWeight: 'bold',
-                        fontSize: 20,
+                        fontSize: 20
                       }}>
                       Transfer
                     </Text>
                   </View>
                 </View>
-              </Card>
             </TouchableOpacity>
 
             <TouchableOpacity
               onPress={() => navigation.push('Topup')}
-              style={{flex: 1}}>
-              <Card
                 mode="contained"
                 style={{
                   backgroundColor: '#E5E8ED',
@@ -228,7 +225,6 @@ const Dashboard = ({navigation}) => {
                     </Text>
                   </View>
                 </View>
-              </Card>
             </TouchableOpacity>
           </View>
 

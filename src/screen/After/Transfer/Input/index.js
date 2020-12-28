@@ -30,6 +30,8 @@ const Input = ({route, navigation}) => {
   const onSubmit = () => {
     if (amount.length == 0 && notes.length == 0) {
       ToastAndroid.show('Must be Filled', ToastAndroid.SHORT);
+    } else if(amount === "0"){
+      ToastAndroid.show('Cannot Transfer', ToastAndroid.SHORT);
     } else {
       navigation.navigate('Confirmation', {
         id: id,

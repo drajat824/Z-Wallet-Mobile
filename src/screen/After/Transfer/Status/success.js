@@ -39,8 +39,6 @@ const Success = ({route, navigation}) => {
 
   getAmount();
 
-  console.log(notes);
-
   return (
     <>
       <StatusBar backgroundColor="#FFFFFF" barStyle="dark-content" />

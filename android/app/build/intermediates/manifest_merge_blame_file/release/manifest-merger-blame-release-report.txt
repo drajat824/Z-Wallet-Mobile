@@ -1,0 +1,356 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zwallet"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:5:5-65
+12-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:6:5-80
+13-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+14-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:7:5-77
+14-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:7:22-75
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-68
+15-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-65
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-79
+16-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:22-76
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/a880c449240da7affffd133e6fe69992/firebase-iid-21.0.0/AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/a880c449240da7affffd133e6fe69992/firebase-iid-21.0.0/AndroidManifest.xml:26:22-79
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/3f9836bad4860022c1a3a532e7a5456d/play-services-measurement-18.0.0/AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/3f9836bad4860022c1a3a532e7a5456d/play-services-measurement-18.0.0/AndroidManifest.xml:26:22-107
+19
+20    <application
+20-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:9:5-37:19
+21        android:name="com.zwallet.MainApplication"
+21-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:10:7-38
+22        android:allowBackup="false"
+22-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:16:7-34
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/9a4658afade2e57b9a640b6674c28496/core-1.1.0/AndroidManifest.xml:24:18-86
+24        android:icon="@mipmap/ic_launcher"
+24-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:14:7-41
+25        android:label="@string/app_name"
+25-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:13:7-39
+26        android:roundIcon="@mipmap/ic_launcher"
+26-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:15:7-46
+27        android:theme="@style/AppTheme"
+27-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:17:7-38
+28        android:usesCleartextTraffic="true" >
+28-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:11:7-42
+29        <activity
+29-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:18:2-27:18
+30            android:name="com.zwallet.SplashActivity"
+30-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:19:8-38
+31            android:label="@string/app_name"
+31-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:21:10-42
+32            android:theme="@style/SplashTheme" >
+32-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:20:9-43
+33            <intent-filter>
+33-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:23:12-26:28
+34                <action android:name="android.intent.action.MAIN" />
+34-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:24:14-66
+34-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:24:22-63
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:25:15-75
+36-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:25:25-72
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:28:7-35:18
+40            android:name="com.zwallet.MainActivity"
+40-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:29:9-37
+41            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+41-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:31:9-86
+42            android:exported="true"
+42-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:34:9-32
+43            android:label="@string/app_name"
+43-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:30:9-41
+44            android:launchMode="singleTask"
+44-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:32:9-40
+45            android:windowSoftInputMode="adjustResize" >
+45-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:33:9-51
+46        </activity>
+47        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+47-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:36:7-84
+47-->/home/drajat/Documents/zwallet/android/app/src/main/AndroidManifest.xml:36:17-81
+48
+49        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+49-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-111
+49-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:18-108
+50        <service
+50-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-23:19
+51            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+51-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-95
+52            android:exported="false" >
+52-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-37
+53            <intent-filter>
+53-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-22:29
+54                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+54-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:17-78
+54-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:25-75
+55            </intent-filter>
+56        </service>
+57
+58        <receiver
+58-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-32:20
+59            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+59-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:13-96
+60            android:exported="true"
+60-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:13-36
+61            android:permission="com.google.android.c2dm.permission.SEND" >
+61-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:28:13-73
+62            <intent-filter>
+62-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-31:29
+63                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+63-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:17-81
+63-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:25-78
+64            </intent-filter>
+65        </receiver>
+66
+67        <meta-data
+67-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:34:9-36:36
+68            android:name="firebase_messaging_auto_init_enabled"
+68-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-64
+69            android:value="true" />
+69-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:36:13-33
+70        <meta-data
+70-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:37:9-39:32
+71            android:name="com.google.firebase.messaging.default_notification_channel_id"
+71-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-89
+72            android:value="" />
+72-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-29
+73        <meta-data
+73-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:40:9-42:47
+74            android:name="com.google.firebase.messaging.default_notification_color"
+74-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-84
+75            android:resource="@color/white" />
+75-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:42:13-44
+76
+77        <activity android:name="com.masteratul.exceptionhandler.DefaultErrorScreen" >
+77-->[:react-native-exception-handler] /home/drajat/Documents/zwallet/node_modules/react-native-exception-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-13:20
+77-->[:react-native-exception-handler] /home/drajat/Documents/zwallet/node_modules/react-native-exception-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:19-84
+78        </activity>
+79
+80        <provider
+80-->[:react-native-image-picker] /home/drajat/Documents/zwallet/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:9-18:20
+81            android:name="com.imagepicker.FileProvider"
+81-->[:react-native-image-picker] /home/drajat/Documents/zwallet/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:13-56
+82            android:authorities="com.zwallet.provider"
+82-->[:react-native-image-picker] /home/drajat/Documents/zwallet/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:13-60
+83            android:exported="false"
+83-->[:react-native-image-picker] /home/drajat/Documents/zwallet/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-37
+84            android:grantUriPermissions="true" >
+84-->[:react-native-image-picker] /home/drajat/Documents/zwallet/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-47
+85            <meta-data
+85-->[:react-native-image-picker] /home/drajat/Documents/zwallet/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-17:58
+86                android:name="android.support.FILE_PROVIDER_PATHS"
+86-->[:react-native-image-picker] /home/drajat/Documents/zwallet/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:17-67
+87                android:resource="@xml/provider_paths" />
+87-->[:react-native-image-picker] /home/drajat/Documents/zwallet/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:17-55
+88        </provider>
+89        <!--
+90             FirebaseMessagingService performs security checks at runtime,
+91             but set to not exported to explicitly avoid allowing another app to call it.
+92        -->
+93        <service
+93-->[com.google.firebase:firebase-messaging:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/0ee2f13f693242c32695d785c2f646ae/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:28:9-35:19
+94            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+94-->[com.google.firebase:firebase-messaging:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/0ee2f13f693242c32695d785c2f646ae/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:29:13-82
+95            android:directBootAware="true"
+95-->[com.google.firebase:firebase-messaging:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/0ee2f13f693242c32695d785c2f646ae/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:30:13-43
+96            android:exported="false" >
+96-->[com.google.firebase:firebase-messaging:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/0ee2f13f693242c32695d785c2f646ae/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:31:13-37
+97            <intent-filter android:priority="-500" >
+97-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-22:29
+98                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+98-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:17-78
+98-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:25-75
+99            </intent-filter>
+100        </service>
+101        <service
+101-->[com.google.firebase:firebase-messaging:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/0ee2f13f693242c32695d785c2f646ae/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:36:9-42:19
+102            android:name="com.google.firebase.components.ComponentDiscoveryService"
+102-->[com.google.firebase:firebase-messaging:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/0ee2f13f693242c32695d785c2f646ae/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:37:13-84
+103            android:directBootAware="true"
+103-->[com.google.firebase:firebase-common:19.3.1] /home/drajat/.gradle/caches/transforms-2/files-2.1/40580106741e19815ec460d1e952a026/jetified-firebase-common-19.3.1/AndroidManifest.xml:35:13-43
+104            android:exported="false" >
+104-->[com.google.firebase:firebase-messaging:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/0ee2f13f693242c32695d785c2f646ae/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:38:13-37
+105            <meta-data
+105-->[com.google.firebase:firebase-messaging:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/0ee2f13f693242c32695d785c2f646ae/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:39:13-41:85
+106                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+106-->[com.google.firebase:firebase-messaging:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/0ee2f13f693242c32695d785c2f646ae/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:40:17-119
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-messaging:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/0ee2f13f693242c32695d785c2f646ae/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:41:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-datatransport:17.0.3] /home/drajat/.gradle/caches/transforms-2/files-2.1/340c036630a2895932362cf89284bded/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+109                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+109-->[com.google.firebase:firebase-datatransport:17.0.3] /home/drajat/.gradle/caches/transforms-2/files-2.1/340c036630a2895932362cf89284bded/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-datatransport:17.0.3] /home/drajat/.gradle/caches/transforms-2/files-2.1/340c036630a2895932362cf89284bded/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-iid:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/a880c449240da7affffd133e6fe69992/firebase-iid-21.0.0/AndroidManifest.xml:32:13-34:85
+112                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+112-->[com.google.firebase:firebase-iid:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/a880c449240da7affffd133e6fe69992/firebase-iid-21.0.0/AndroidManifest.xml:33:17-96
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-iid:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/a880c449240da7affffd133e6fe69992/firebase-iid-21.0.0/AndroidManifest.xml:34:17-82
+114            <meta-data
+114-->[com.google.android.gms:play-services-measurement-api:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/c1fca83c02257b779ec17bd9e140abc7/play-services-measurement-api-18.0.0/AndroidManifest.xml:30:13-32:85
+115                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+115-->[com.google.android.gms:play-services-measurement-api:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/c1fca83c02257b779ec17bd9e140abc7/play-services-measurement-api-18.0.0/AndroidManifest.xml:31:17-139
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.android.gms:play-services-measurement-api:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/c1fca83c02257b779ec17bd9e140abc7/play-services-measurement-api-18.0.0/AndroidManifest.xml:32:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-installations:16.3.3] /home/drajat/.gradle/caches/transforms-2/files-2.1/cecf8c108db86954d4b59c86349d15b1/firebase-installations-16.3.3/AndroidManifest.xml:17:13-19:85
+118                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+118-->[com.google.firebase:firebase-installations:16.3.3] /home/drajat/.gradle/caches/transforms-2/files-2.1/cecf8c108db86954d4b59c86349d15b1/firebase-installations-16.3.3/AndroidManifest.xml:18:17-127
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-installations:16.3.3] /home/drajat/.gradle/caches/transforms-2/files-2.1/cecf8c108db86954d4b59c86349d15b1/firebase-installations-16.3.3/AndroidManifest.xml:19:17-82
+120        </service>
+121        <service
+121-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/9b8e790869747a5dc69620561641f07d/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+122            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+122-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/9b8e790869747a5dc69620561641f07d/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+123            android:exported="false" >
+123-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/9b8e790869747a5dc69620561641f07d/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+124            <meta-data
+124-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/9b8e790869747a5dc69620561641f07d/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+125                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+125-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/9b8e790869747a5dc69620561641f07d/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+126                android:value="cct" />
+126-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/9b8e790869747a5dc69620561641f07d/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+127        </service>
+128        <service
+128-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/01ae294ad4d744ba24bd055dc995b8e6/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+129            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+129-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/01ae294ad4d744ba24bd055dc995b8e6/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+130            android:exported="false"
+130-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/01ae294ad4d744ba24bd055dc995b8e6/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+131            android:permission="android.permission.BIND_JOB_SERVICE" >
+131-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/01ae294ad4d744ba24bd055dc995b8e6/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+132        </service>
+133
+134        <receiver
+134-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/01ae294ad4d744ba24bd055dc995b8e6/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+135            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+135-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/01ae294ad4d744ba24bd055dc995b8e6/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+136            android:exported="false" />
+136-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/01ae294ad4d744ba24bd055dc995b8e6/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+137
+138        <activity
+138-->[com.google.android.gms:play-services-auth:18.1.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:23:9-27:75
+139            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+139-->[com.google.android.gms:play-services-auth:18.1.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:24:13-93
+140            android:excludeFromRecents="true"
+140-->[com.google.android.gms:play-services-auth:18.1.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:25:13-46
+141            android:exported="false"
+141-->[com.google.android.gms:play-services-auth:18.1.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:26:13-37
+142            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+142-->[com.google.android.gms:play-services-auth:18.1.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:27:13-72
+143        <!--
+144            Service handling Google Sign-In user revocation. For apps that do not integrate with
+145            Google Sign-In, this service will never be started.
+146        -->
+147        <service
+147-->[com.google.android.gms:play-services-auth:18.1.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:33:9-37:51
+148            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+148-->[com.google.android.gms:play-services-auth:18.1.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:34:13-89
+149            android:exported="true"
+149-->[com.google.android.gms:play-services-auth:18.1.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:35:13-36
+150            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+150-->[com.google.android.gms:play-services-auth:18.1.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:36:13-107
+151            android:visibleToInstantApps="true" />
+151-->[com.google.android.gms:play-services-auth:18.1.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/417cd6b002d4424cfc58e4ad88ce24b6/play-services-auth-18.1.0/AndroidManifest.xml:37:13-48
+152
+153        <receiver
+153-->[com.google.firebase:firebase-iid:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/a880c449240da7affffd133e6fe69992/firebase-iid-21.0.0/AndroidManifest.xml:37:9-44:20
+154            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+154-->[com.google.firebase:firebase-iid:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/a880c449240da7affffd133e6fe69992/firebase-iid-21.0.0/AndroidManifest.xml:38:13-78
+155            android:exported="true"
+155-->[com.google.firebase:firebase-iid:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/a880c449240da7affffd133e6fe69992/firebase-iid-21.0.0/AndroidManifest.xml:39:13-36
+156            android:permission="com.google.android.c2dm.permission.SEND" >
+156-->[com.google.firebase:firebase-iid:21.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/a880c449240da7affffd133e6fe69992/firebase-iid-21.0.0/AndroidManifest.xml:40:13-73
+157            <intent-filter>
+157-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-31:29
+158                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+158-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:17-81
+158-->[:react-native-firebase_messaging] /home/drajat/Documents/zwallet/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:25-78
+159            </intent-filter>
+160        </receiver>
+161
+162        <activity
+162-->[com.google.android.gms:play-services-base:17.1.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/c4fb6b3249f446fdb0995f0c1cd7339f/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+163            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+163-->[com.google.android.gms:play-services-base:17.1.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/c4fb6b3249f446fdb0995f0c1cd7339f/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+164            android:exported="false"
+164-->[com.google.android.gms:play-services-base:17.1.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/c4fb6b3249f446fdb0995f0c1cd7339f/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+165-->[com.google.android.gms:play-services-base:17.1.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/c4fb6b3249f446fdb0995f0c1cd7339f/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+166
+167        <provider
+167-->[com.google.firebase:firebase-common:19.3.1] /home/drajat/.gradle/caches/transforms-2/files-2.1/40580106741e19815ec460d1e952a026/jetified-firebase-common-19.3.1/AndroidManifest.xml:26:9-31:39
+168            android:name="com.google.firebase.provider.FirebaseInitProvider"
+168-->[com.google.firebase:firebase-common:19.3.1] /home/drajat/.gradle/caches/transforms-2/files-2.1/40580106741e19815ec460d1e952a026/jetified-firebase-common-19.3.1/AndroidManifest.xml:27:13-77
+169            android:authorities="com.zwallet.firebaseinitprovider"
+169-->[com.google.firebase:firebase-common:19.3.1] /home/drajat/.gradle/caches/transforms-2/files-2.1/40580106741e19815ec460d1e952a026/jetified-firebase-common-19.3.1/AndroidManifest.xml:28:13-72
+170            android:directBootAware="true"
+170-->[com.google.firebase:firebase-common:19.3.1] /home/drajat/.gradle/caches/transforms-2/files-2.1/40580106741e19815ec460d1e952a026/jetified-firebase-common-19.3.1/AndroidManifest.xml:29:13-43
+171            android:exported="false"
+171-->[com.google.firebase:firebase-common:19.3.1] /home/drajat/.gradle/caches/transforms-2/files-2.1/40580106741e19815ec460d1e952a026/jetified-firebase-common-19.3.1/AndroidManifest.xml:30:13-37
+172            android:initOrder="100" />
+172-->[com.google.firebase:firebase-common:19.3.1] /home/drajat/.gradle/caches/transforms-2/files-2.1/40580106741e19815ec460d1e952a026/jetified-firebase-common-19.3.1/AndroidManifest.xml:31:13-36
+173
+174        <receiver
+174-->[com.google.android.gms:play-services-measurement:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/3f9836bad4860022c1a3a532e7a5456d/play-services-measurement-18.0.0/AndroidManifest.xml:29:9-33:20
+175            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+175-->[com.google.android.gms:play-services-measurement:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/3f9836bad4860022c1a3a532e7a5456d/play-services-measurement-18.0.0/AndroidManifest.xml:30:13-85
+176            android:enabled="true"
+176-->[com.google.android.gms:play-services-measurement:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/3f9836bad4860022c1a3a532e7a5456d/play-services-measurement-18.0.0/AndroidManifest.xml:31:13-35
+177            android:exported="false" >
+177-->[com.google.android.gms:play-services-measurement:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/3f9836bad4860022c1a3a532e7a5456d/play-services-measurement-18.0.0/AndroidManifest.xml:32:13-37
+178        </receiver>
+179
+180        <service
+180-->[com.google.android.gms:play-services-measurement:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/3f9836bad4860022c1a3a532e7a5456d/play-services-measurement-18.0.0/AndroidManifest.xml:35:9-38:40
+181            android:name="com.google.android.gms.measurement.AppMeasurementService"
+181-->[com.google.android.gms:play-services-measurement:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/3f9836bad4860022c1a3a532e7a5456d/play-services-measurement-18.0.0/AndroidManifest.xml:36:13-84
+182            android:enabled="true"
+182-->[com.google.android.gms:play-services-measurement:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/3f9836bad4860022c1a3a532e7a5456d/play-services-measurement-18.0.0/AndroidManifest.xml:37:13-35
+183            android:exported="false" />
+183-->[com.google.android.gms:play-services-measurement:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/3f9836bad4860022c1a3a532e7a5456d/play-services-measurement-18.0.0/AndroidManifest.xml:38:13-37
+184        <service
+184-->[com.google.android.gms:play-services-measurement:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/3f9836bad4860022c1a3a532e7a5456d/play-services-measurement-18.0.0/AndroidManifest.xml:39:9-43:72
+185            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+185-->[com.google.android.gms:play-services-measurement:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/3f9836bad4860022c1a3a532e7a5456d/play-services-measurement-18.0.0/AndroidManifest.xml:40:13-87
+186            android:enabled="true"
+186-->[com.google.android.gms:play-services-measurement:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/3f9836bad4860022c1a3a532e7a5456d/play-services-measurement-18.0.0/AndroidManifest.xml:41:13-35
+187            android:exported="false"
+187-->[com.google.android.gms:play-services-measurement:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/3f9836bad4860022c1a3a532e7a5456d/play-services-measurement-18.0.0/AndroidManifest.xml:42:13-37
+188            android:permission="android.permission.BIND_JOB_SERVICE" />
+188-->[com.google.android.gms:play-services-measurement:18.0.0] /home/drajat/.gradle/caches/transforms-2/files-2.1/3f9836bad4860022c1a3a532e7a5456d/play-services-measurement-18.0.0/AndroidManifest.xml:43:13-69
+189
+190        <meta-data
+190-->[com.google.android.gms:play-services-basement:17.1.1] /home/drajat/.gradle/caches/transforms-2/files-2.1/53700884f347c3a0715978c9b277bdc2/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+191            android:name="com.google.android.gms.version"
+191-->[com.google.android.gms:play-services-basement:17.1.1] /home/drajat/.gradle/caches/transforms-2/files-2.1/53700884f347c3a0715978c9b277bdc2/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+192            android:value="@integer/google_play_services_version" />
+192-->[com.google.android.gms:play-services-basement:17.1.1] /home/drajat/.gradle/caches/transforms-2/files-2.1/53700884f347c3a0715978c9b277bdc2/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+193    </application>
+194
+195</manifest>

@@ -32,14 +32,14 @@ const Profile = ({navigation}) => {
   };
 
   const onLogout = async () => {
-    await dispatch(
+    await dispatch(TransferLogout());
+    // await dispatch(ProfileLogout());
+    dispatch(
       LogoutDevice({
         token: Auth.data.token,
       }),
     );
     dispatch(AuthLogout());
-    // // dispatch(ProfileLogout());
-    // // dispatch(TransferLogout());
   };
 
   const clickEdit = () => {

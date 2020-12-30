@@ -24,6 +24,7 @@ Zwallet adalah aplikasi payment yang dibangun menggunakan React Native dan Redux
 9. Edit Profile
 10. Forgot Password (On Progress)
 11. On/Of Notification (On Progress)
+12. Cannot Multiple Login (On Progress)
 
 ## App UI
 

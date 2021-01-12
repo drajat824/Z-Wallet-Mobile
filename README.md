@@ -16,15 +16,12 @@ Zwallet adalah aplikasi payment yang dibangun menggunakan React Native dan Redux
 1. Authentication
 2. Search & Filter by Name
 3. Notification
-4. Real Time Balance (On Progress)
 5. Filter Transfer Data by Income/ Exspense
 6. Filter Transfer Data by Selected Date (On Progress)
 7. Transfer Balance
-8. Topup Midtrans (On Progress)
 9. Edit Profile
 10. Forgot Password (On Progress)
-11. On/Of Notification (On Progress)
-12. Cannot Multiple Login (On Progress)
+11. Off Notification (On Progress)
 
 ## App UI
 
